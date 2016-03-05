@@ -1,0 +1,142 @@
+body{
+	font-family : helvetica ;
+}
+
+
+.logo{
+  text-align: center;
+  font-weight: bold;
+  font-size: 13px;
+  color: white;
+  background-color: #292929;
+  margin : 0px;
+
+}
+
+.logo ul{
+  padding :0px;
+  margin-bottom: 0px;
+}
+
+.logo li{
+  padding :5px;
+}
+
+.logo img{
+  height : 50px;
+  padding :10px;
+}
+
+.castle0{
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+.castle{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.castle2{
+  font-size: 20px;
+  padding-right: 5px;
+
+}
+
+.castle3{
+  font-size: 12px;
+}
+
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+#wrapper{
+  background-color: #353535;
+  margin: 0px;
+}
+
+.navbar-perso{
+  background-color: #353535;
+  border: none;
+}
+
+.navbar-perso li{
+  padding-left: 0px;
+  border:1px;
+
+}
+
+.navbar-perso .navbar-brand,
+.navbar-perso .navbar-nav > li > a {
+  color: #eeeeee;
+  line-height: 30px;
+}
+
+.navbar-perso .navbar-nav > li > a:hover,
+.navbar-perso .navbar-nav > li > a:active,
+.navbar-perso .navbar-nav > li > a:focus,
+.navbar-perso .navbar-nav > .open > a,
+.navbar-perso .navbar-nav > .open > a:hover,
+.navbar-perso .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-perso .navbar-brand:hover,
+.navbar-perso .navbar-brand:active,
+.navbar-perso .navbar-brand:focus {
+  color: white;
+}
+
+.list-inline li{
+  display: inline-block;
+}
+
+.footer {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin :0px;
+  text-align: right;
+  font-size: 20px;
+}
+
+.footer li{
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+#presentation{
+  background-color: #dddddd;
+  text-align: center;
+}
+
+.no-padding{
+  padding: 0px;
+}
+
+.no-margin{
+  margin:0px;
+}
+
