@@ -1,135 +1,17 @@
 body{
-	font-family : helvetica ;
+  font-family : "Open sans" ;
+  color:#F4F3F3;
+  background-color: #333333
 }
 
-
-.logo{
-  text-align: center;
-  font-weight: bold;
-  font-size: 13px;
-  color: white;
-  background-color: #292929;
-  margin : 0px;
-
-}
-
-.logo ul{
-  padding :0px;
-  margin-bottom: 0px;
-}
-
-.logo li{
-  padding :5px;
-}
-
-.logo img{
-  height : 50px;
-  padding :10px;
-}
-
-.castle0{
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 10px;
-  padding-bottom: 0px;
-}
-
-.castle{
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-
-.castle2{
-  font-size: 20px;
-  padding-right: 5px;
-
-}
-
-.castle3{
-  font-size: 12px;
-}
-
-/* make sidebar nav vertical */ 
-@media (min-width: 768px) {
-  .sidebar-nav .navbar .navbar-collapse {
-    padding: 0;
-    max-height: none;
-  }
-  .sidebar-nav .navbar ul {
-    float: none;
-    display: block;
-  }
-  .sidebar-nav .navbar li {
-    float: none;
-    display: block;
-  }
-  .sidebar-nav .navbar li a {
-    padding-top: 12px;
-    padding-bottom: 12px;
-  }
-}
-
-#wrapper{
-  background-color: #353535;
-  margin: 0px;
-}
-
-.navbar-perso{
-  background-color: #353535;
-  border: none;
-}
-
-.navbar-perso li{
-  padding-left: 0px;
-  border:1px;
-
-}
-
-.navbar-perso .navbar-brand,
-.navbar-perso .navbar-nav > li > a {
-  color: #eeeeee;
-  line-height: 30px;
-}
-
-.navbar-perso .navbar-nav > li > a:hover,
-.navbar-perso .navbar-nav > li > a:active,
-.navbar-perso .navbar-nav > li > a:focus,
-.navbar-perso .navbar-nav > .open > a,
-.navbar-perso .navbar-nav > .open > a:hover,
-.navbar-perso .navbar-nav > .open > a:focus {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-.navbar-perso .navbar-brand:hover,
-.navbar-perso .navbar-brand:active,
-.navbar-perso .navbar-brand:focus {
-  color: white;
+body{
+  font-family : "Open sans" ;
+  color:grey;
+  background-color: #F4F3F3
 }
 
 .list-inline li{
   display: inline-block;
-}
-
-.footer {
-  background-color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin :0px;
-  text-align: right;
-  font-size: 20px;
-}
-
-.footer li{
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: center;
-  font-size: 30px;
-}
-
-#presentation{
-  background-color: #dddddd;
-  text-align: center;
 }
 
 .no-padding{
@@ -138,5 +20,106 @@ body{
 
 .no-margin{
   margin:0px;
+}
+
+.logo{
+  font-size:20px;
+  font-weight: bold;
+}
+
+
+.logo2{
+  font-size:12px;
+  font-weight: bold;
+}
+
+.castle{
+  font-size: 35px;
+  padding-left: 5px;
+}
+
+.castle2{
+  font-size: 22px;
+}
+
+.brand-padding{
+  padding: 1em 1em;
+}
+
+.brand-padding2{
+  padding-left: 1em;
+}
+
+
+.navbar-transparent {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-color: transparent;
+}
+
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-nav > li > a {
+  color: #eeeeee;
+  line-height: 50px;
+}
+
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:active,
+.navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:active,
+.navbar-transparent .navbar-brand:focus {
+  color: white;
+}
+
+.dropdown-menu,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: grey;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+
+#wrapper{
+  position:absolute;
+  right : 10%;
+  bottom : 10%;
+  text-align: center;
+  color: white;
+  text-shadow : 2px 2px 4px rgba (0, 0, 0, 0.5);
+  }
+
+#wrapper h1{
+   font-size: 4vw;
+}
+
+#wrapper h2{
+   font-size: 2vw;
+}
+
+.resa{
+  font-size: 2vw;
+}
+.resa2{
+  font-size: 3vw;
+}
+
+
+.descrip{
+  font-size: 15px;
+}
+
+.spacer{
+  height: 4em;
 }
 

@@ -1,178 +1,280 @@
 <!DOCTYPE html>
 <html>
-  <head>
-		 <meta charset="utf-8">
-		    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-		    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		 
-		    <title>mytripintours</title>
+		<title>mytripintours</title>
 
-		    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-		    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-			<link rel="stylesheet" type="text/css" href="css/style.css">
-<body>
-			<div id="wrapper">	
-				<!--div class="container no-padding no-margin"-->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+
+		<nav class="navbar navbar-default navbar-fixed-top navbar-transparent">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand list-inline no-padding hidden-xs" href="#">
+		      	<ul class="brand-padding no-margin">
+					<li class="logo">MY TRIP IN TOURS</li>
+					<li><i class="fa fa-fort-awesome castle"></i></li>
+				</ul>
+			  </a>
+			  <a class="navbar-brand list-inline no-padding hidden-sm hidden-md hidden-lg" href="#">
+		        <ul class="brand-padding2 no-margin">
+		  			<li class="logo2">MY TRIP IN TOURS</li>
+		  			<li><i class="fa fa-fort-awesome castle2"></i></li>
+		  		</ul>
+		  	  </a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">Home</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Availabiliy <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">Romantic 1 beeroom flat</a></li>
+		            <li><a href="#">Modern 2 bedrooms flat</a></li>		            
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">Testimonials</a></li>
+		          </ul>
+		        </li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Info <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">How to get there?</a></li>
+		            <li><a href="#">What to do in Tours?</a></li>		            
+		          </ul>
+		        </li>
+		        <li><a href="#">Contact</a></li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+
+		<div id="myCarousel" class="carousel slide hidden-xs" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		    <li data-target="#myCarousel" data-slide-to="1"></li>
+		    <li data-target="#myCarousel" data-slide-to="2"></li> 
+		    <li data-target="#myCarousel" data-slide-to="3"></li> 
+		    <li data-target="#myCarousel" data-slide-to="4"></li>       
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+		    <div class="item active">
+		      <img src="images/background/16_9_01.jpg" alt="img1">
+		    </div>
+
+		    <div class="item">
+		      <img src="images/background/16_9_02.jpg" alt="img2">
+		    </div>		  
+
+		    <div class="item">
+		      <img src="images/background/16_9_03.jpg" alt="img3">
+		    </div>		  
+
+		    <div class="item">
+		      <img src="images/background/16_9_04.jpg" alt="img4">
+		    </div>		  
+
+		    <div class="item">
+		      <img src="images/background/16_9_05.jpg" alt="img5">
+		    </div>		  
+
+		    
+		  </div>
+
+		  <!-- Left and right controls -->
+		  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		
+			<div id="wrapper">		
+				<h1>Welcome to Tours</h1>
+				<h2>Wonderful historical city</h2>
+				<button type="button" class="btn btn-primary resa">Book my flat</button>
+			</div>
+		</div>
+
+
+		<div id="myCarousel" class="carousel slide hidden-sm hidden-md hidden-lg" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		    <li data-target="#myCarousel" data-slide-to="1"></li>
+		    <li data-target="#myCarousel" data-slide-to="2"></li> 
+		    <li data-target="#myCarousel" data-slide-to="3"></li> 
+		    <li data-target="#myCarousel" data-slide-to="4"></li>       
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+		    <div class="item active">
+		      <img src="images/background/16_9_1.jpg" alt="img1">
+		    </div>
+
+		    <div class="item">
+		      <img src="images/background/16_9_2.jpg" alt="img2">
+		    </div>		  
+
+		    <div class="item">
+		      <img src="images/background/16_9_3.jpg" alt="img3">
+		    </div>		  
+
+		    <div class="item">
+		      <img src="images/background/16_9_4.jpg" alt="img4">
+		    </div>		  
+
+		    <div class="item">
+		      <img src="images/background/16_9_5.jpg" alt="img5">
+		    </div>		  
+
+		    
+		  </div>
+
+		  <!-- Left and right controls -->
+		  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		
+			<div id="wrapper">		
+				<h1>Welcome to Tours</h1>
+				<button type="button" class="btn btn-primary resa2">Book my flat</button>
+			</div>
+		</div>
+
+		<div>	
+			<!--div class="container no-padding no-margin"-->
+		<div class="spacer"></div>
+
+		<div class="container">
+			<div class="row">
+			  <div class="col-sm-12 col-md-6 descrip">
+			  	<p>
+			  		Tours, qui a obtenu le label Villes et Pays d'art et d'histoire, est au cœur du site de la Loire, inscrit au patrimoine mondial de l'UNESCO au titre de paysage culturel. Avec des vestiges de plus de 2000 ans d’histoire, cette ville est considérée comme l'une des cités historiques ou se forgea l'unité française. 
+					Avec le séjour continuel des rois en Touraine, elle devient une véritable capitale de la France entre 1450 et 1550. Quantité de châteaux et d’hôtels particuliers apparaissent pendant cette période.
+					Aujourd’hui encore, La ville conserve un patrimoine Médiéval et Renaissance significatif. 
+			  	</p>
+			  </div>
+			    <div class="col-sm-12 col-md-6 descrip">
+			    	<p>
+			    	Il est essentiellement situé dans l'ancien bourg de Châteauneuf que l'on appelle maintenant le Quartier Plumereau. 
+					C’est dans ce magnifique quartier que nous vous accueillons, dans un ancien hôtel particulier du XVème siècle, « ancien fief du Bourg Saint Père ».
+			  		Vous venez passer un week-end, une semaine ou plus à Tours pour des vacances, un voyage d’affaires ou pour des examens et autres concours? Nous vous proposons deux appartements rénovés et équipés de toutes les installations modernes pour votre plus grand confort (avec lien vers les pages descriptives et photos).
+			    	</p>
+			    </div>
+			</div>
+		</div>
+
+		<div class="spacer"></div>
+
 				<div class="container">
-					<div class="row">
-					  <div class="col-sm-2 no-padding">
-					  
-						    <div class="logo list-inline hidden-xs" >
-								<!--i class="fa fa-fort-awesome"></i-->
-								<ul>
-									<li>MY TRIP IN TOURS</li>
-									<li><i class="fa fa-fort-awesome castle"></i></li>
-									<!--li><img src="images/logo2.png"></li-->
-									
-								</ul>										
+			<div class="row">
+			  <div class="col-sm-12 col-md-6 descrip">
+			  	<p>
+			  		Tours, qui a obtenu le label Villes et Pays d'art et d'histoire, est au cœur du site de la Loire, inscrit au patrimoine mondial de l'UNESCO au titre de paysage culturel. Avec des vestiges de plus de 2000 ans d’histoire, cette ville est considérée comme l'une des cités historiques ou se forgea l'unité française. 
+					Avec le séjour continuel des rois en Touraine, elle devient une véritable capitale de la France entre 1450 et 1550. Quantité de châteaux et d’hôtels particuliers apparaissent pendant cette période.
+					Aujourd’hui encore, La ville conserve un patrimoine Médiéval et Renaissance significatif. 
+			  	</p>
+			  </div>
+			    <div class="col-sm-12 col-md-6 descrip">
+			    	<p>
+			    	Il est essentiellement situé dans l'ancien bourg de Châteauneuf que l'on appelle maintenant le Quartier Plumereau. 
+					C’est dans ce magnifique quartier que nous vous accueillons, dans un ancien hôtel particulier du XVème siècle, « ancien fief du Bourg Saint Père ».
+			  		Vous venez passer un week-end, une semaine ou plus à Tours pour des vacances, un voyage d’affaires ou pour des examens et autres concours? Nous vous proposons deux appartements rénovés et équipés de toutes les installations modernes pour votre plus grand confort (avec lien vers les pages descriptives et photos).
+			    	</p>
+			    </div>
 
-								<!--p>MY TRIP IN TOURS</p-->
-							</div>
-							<div class="sidebar-nav">
-						      <div class="navbar navbar-inverse navbar-perso no-margin" role="navigation">
-						        <div class="navbar-header list-inline">
-						          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
-						            <span class="sr-only">Toggle navigation</span>
-						            <span class="icon-bar"></span>
-						            <span class="icon-bar"></span>
-						            <span class="icon-bar"></span>
-						          </button>
-						          <!--span class="visible-xs navbar-brand">MY TRIP IN TOURS</span-->
-						          <span class="visible-xs navbar-brand castle0">
-							          <ul>
-										<li><i class="fa fa-fort-awesome castle2"></i></li>
-										<!--li><img src="images/logo2.png"></li-->
-										<li class="castle3">MY TRIP IN TOURS</li>
-									 </ul>
-							     </span>
-						        </div>
-						        <div class="navbar-collapse collapse sidebar-navbar-collapse">
-						          <ul class="nav navbar-nav">
-						            <li><a href="#">HOME</a></li>
-						            <li><a href="#">DESCRIPTION</a></li>
-						            <li><a href="#">AVAILABILITY</a></li>
-						            <li><a href="#">TESTIMONIALS</a></li>
-						            <li><a href="#">HOW TO GET THERE</a></li>
-						            <li><a href="#">WHAT TO DO IN TOURS?</a></li>
-						            <li><a href="#">CONTACT</a></li>	            
-						          </ul>
-						        </div><!--/.nav-collapse -->
-						      </div>
-						    </div>
-					  </div>
-					  <div class="col-sm-10 no-padding">				  
-						  <!--br-->
-						  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-						    <!-- Indicators -->
-						    <ol class="carousel-indicators">
-						      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-						      <li data-target="#myCarousel" data-slide-to="1"></li>
-						      <li data-target="#myCarousel" data-slide-to="2"></li> 
-						      <li data-target="#myCarousel" data-slide-to="3"></li>
-						      <li data-target="#myCarousel" data-slide-to="4"></li>
-						      <li data-target="#myCarousel" data-slide-to="5"></li>       
-						    </ol>
 
-						    <!-- Wrapper for slides -->
-						    <div class="carousel-inner" role="listbox">
-						      <div class="item active">
-						        <img src="images/appart1.jpg" alt="Chania">
-						      </div>
+			</div>
+		</div>
 
-						      <div class="item">
-						        <img src="images/appart2.jpg" alt="Chania">
-						      </div>
-						    
-						      <div class="item">
-						        <img src="images/appart3.jpg" alt="Flower">
-						      </div>
-						      
-						      <div class="item">
-						        <img src="images/appart4.jpg" alt="Chania">
-						      </div>
+		<div class="spacer"></div>
 
-						      <div class="item">
-						        <img src="images/appart5.jpg" alt="Chania">
-						      </div>
-						    
-						      <div class="item">
-						        <img src="images/appart6.jpg" alt="Flower">
-						      </div>
-						    </div>
+				<div class="container">
+			<div class="row">
+			  <div class="col-sm-12 col-md-6 descrip">
+			  	<p>
+			  		Tours, qui a obtenu le label Villes et Pays d'art et d'histoire, est au cœur du site de la Loire, inscrit au patrimoine mondial de l'UNESCO au titre de paysage culturel. Avec des vestiges de plus de 2000 ans d’histoire, cette ville est considérée comme l'une des cités historiques ou se forgea l'unité française. 
+					Avec le séjour continuel des rois en Touraine, elle devient une véritable capitale de la France entre 1450 et 1550. Quantité de châteaux et d’hôtels particuliers apparaissent pendant cette période.
+					Aujourd’hui encore, La ville conserve un patrimoine Médiéval et Renaissance significatif. 
+			  	</p>
+			  </div>
+			    <div class="col-sm-12 col-md-6 descrip">
+			    	<p>
+			    	Il est essentiellement situé dans l'ancien bourg de Châteauneuf que l'on appelle maintenant le Quartier Plumereau. 
+					C’est dans ce magnifique quartier que nous vous accueillons, dans un ancien hôtel particulier du XVème siècle, « ancien fief du Bourg Saint Père ».
+			  		Vous venez passer un week-end, une semaine ou plus à Tours pour des vacances, un voyage d’affaires ou pour des examens et autres concours? Nous vous proposons deux appartements rénovés et équipés de toutes les installations modernes pour votre plus grand confort (avec lien vers les pages descriptives et photos).
+			    	</p>
+			    </div>
 
-						    <!-- Left and right controls -->
-						    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-						      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-						      <span class="sr-only">Previous</span>
-						    </a>
-						    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-						      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-						      <span class="sr-only">Next</span>
-						    </a>
-						  </div>
-						  <div class="footer list-inline">
-							  <ul>
-							  	<li><i class="fa fa-info-circle"></i></li>
-							  	<li><i class="fa fa-calendar"></i></li>
-							  	<li><i class="fa fa-bed"></i></li>
-							  </ul>
-						  </div>
-						</div>
-						<div class="col-sm-2 no-padding">
-						  <div>						  
-						  </div>
-						</div> 
-						<div class="col-sm-5 no-padding">
-						  <div id="presentation">
-							  <p>totot</p>
-							  <p>fgsdfgd</p>
-							  <p>sdfgfdg</p>
-							  <p>sdfgfg</p>
-							  <p>sdfdf</p>
-							  <p>sdfgsf</p>
-							  <p>sffg</p>
-							  <p>totot</p>
-							  <p>fgsdfgd</p>
-							  <p>sdfgfdg</p>
-							  <p class="no-margin">sdfgfg</p>
-						  </div>
-						</div> 
 
-	
-						<div class="col-sm-5 no-padding"> 
-						 	<div id="map" style="width: 100%; height: 400px;float: left;"></div>
-						</div> 
-							<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+			</div>
+		</div>
 
-							<script type="text/javascript">
-							  var myLatlng = new google.maps.LatLng(48.852937,2.364178);
+		<div class="spacer"></div>
 
-							  var myOptions = {
-							      zoom: 14,
-							      center: myLatlng,
-							      mapTypeId: google.maps.MapTypeId.ROADMAP,
-							      styles: []
-							  };
+				<div class="container">
+			<div class="row">
+			  <div class="col-sm-12 col-md-6 descrip">
+			  	<p>
+			  		Tours, qui a obtenu le label Villes et Pays d'art et d'histoire, est au cœur du site de la Loire, inscrit au patrimoine mondial de l'UNESCO au titre de paysage culturel. Avec des vestiges de plus de 2000 ans d’histoire, cette ville est considérée comme l'une des cités historiques ou se forgea l'unité française. 
+					Avec le séjour continuel des rois en Touraine, elle devient une véritable capitale de la France entre 1450 et 1550. Quantité de châteaux et d’hôtels particuliers apparaissent pendant cette période.
+					Aujourd’hui encore, La ville conserve un patrimoine Médiéval et Renaissance significatif. 
+			  	</p>
+			  </div>
+			    <div class="col-sm-12 col-md-6 descrip">
+			    	<p>
+			    	Il est essentiellement situé dans l'ancien bourg de Châteauneuf que l'on appelle maintenant le Quartier Plumereau. 
+					C’est dans ce magnifique quartier que nous vous accueillons, dans un ancien hôtel particulier du XVème siècle, « ancien fief du Bourg Saint Père ».
+			  		Vous venez passer un week-end, une semaine ou plus à Tours pour des vacances, un voyage d’affaires ou pour des examens et autres concours? Nous vous proposons deux appartements rénovés et équipés de toutes les installations modernes pour votre plus grand confort (avec lien vers les pages descriptives et photos).
+			    	</p>
+			    </div>
 
-							  var map = new google.maps.Map(document.getElementById('map'), myOptions);
-							  var marker = new google.maps.Marker({
-							      position: myLatlng,
-							      map: map,
-							      title: "You are here!"
-							  });
-							</script>
 
-	
-					  </div>
-					</div>
-				</div>
-			</div>	
-			<!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
-			<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script-->
+			</div>
+		</div>
 
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<div class="spacer"></div>
 
-</body>
+
+
+
+	</div>	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script>
+    $('.carousel').carousel({
+        interval: 4000 //changes the speed
+    })
+    </script>
+
+	</body>
 </html>
